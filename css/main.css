@@ -263,3 +263,20 @@ textarea {
   }
 }
 
+
+body { 
+  background: url(../img/rileybg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+
+
+h1{
+  font-family: 'Fredoka One', cursive;
+}
+
