@@ -265,42 +265,37 @@ textarea {
 
 
 body { 
-  background: url(../img/rileybg.jpg) no-repeat center center fixed; 
-  background: url(../img/1.jpg) no-repeat center center fixed; 
-  background: url(../img/2.jpg) no-repeat center center fixed; 
-  background: url(../img/3.jpg) no-repeat center center fixed; 
-  background: url(../img/4.jpg) no-repeat center center fixed; 
-
-  background: url(../img/5.jpg) no-repeat center center fixed; 
-
-  background: url(../img/6.jpg) no-repeat center center fixed; 
-
-  background: url(../img/7.jpg) no-repeat center center fixed; 
-
-  background: url(../img/8.jpg) no-repeat center center fixed; 
-
-
-
-
-  background: url(../img/9.png) no-repeat center center fixed; 
   background: url(../img/10.gif) no-repeat center center fixed; 
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  font-family: 'Fredoka One', cursive;
+  font-family: Arial, Helvetica, sans-serif;	
   text-align: center;
 }
 
 
 h1{
-  font-family: 'Fredoka One', cursive;
   color: white;
+  font-size: 4em;
 }
 
 
 *{
 color: white !important;
 }
+
+
+
+.cutout{
+  width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .cutout{
+    width: 100%;
+  }
+
+}
+
